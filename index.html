@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    
+    <title>app9 Geolocalizacion </title>
+    </head>
+    <link rel="stylesheet" href="themes/app9.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+			
+   <body>
+   <!--principal-->
+   <div data-role="page" id="principal">
+   
+    <div data-role="header" data-position="fixed" data-tap-toggle="false">
+    <h1> geolocalizacion </h1>
+    </div>
+    
+     <div data-role="main" clas="ui-content">
+     <div class="ui-btn" id="posicion"> posicion en msg alerta </div>
+     <div class="ui-btn" id="watch"> posicion en movimiento (watch) </div>
+     
+    <div>
+     <div> latitud: <span id="latitud"></span></div>
+     <div> longitud: <span id="longitud"></span></div>
+     <div> Altitud: <span id="altitud"></span></div>
+     <div> Accuracy: <span id="accuracy"></span></div>
+     <div> alt. Accuracy: <span id="aaccuracy"></span></div>
+     <div> heading: <span id="headingg"></span></div>
+     <div> speed: <span id="speed"></span></div>
+     <div> Timestamp: <span id="timestamp"></span></div>
+    </div>
+    </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <h4> Daniel Quiroz Garcia </h4>
+     <h5> app9 GPS </h5>
+     <img src="res/android/mdpi.png" width="56" height="46">
+     </div>
+     </div>
+     </body>
+   </html>
