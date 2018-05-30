@@ -5,10 +5,10 @@
  id ="com.phonegap.app5"
  version ="1.0.0">
  
-  <name>app8 Aplicaciones juntadas</name>
+  <name>app9 geolocalizacion</name>
     
 	<description>
-	Aplicacion que realiza la vibracion y el sonido del Dispositivo
+	GPS
 	</description>
 	
 	<author href="https://build.phonegap.com" email="quiroz.daniel.1dm@gmail.com">
